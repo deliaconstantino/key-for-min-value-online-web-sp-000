@@ -4,13 +4,7 @@
 def key_for_min_value(hash)
 nums = []
   hash.collect do |name, num|
-    if num < hash[name].first
-      nums << hash[name]
-    end
-    nums.collect do |name_2, num_2|
-      if
+    nums << num
   end
-
-
-
+  hash.key(nums.min)
 end
