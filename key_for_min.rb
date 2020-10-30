@@ -12,7 +12,7 @@ def key_for_min_value(hash)
   # then we want to iterate on the hash... preferably using .each
   hash.each do |key, value|
     # in here we want to do a type of comparison
-    if value < min_value.to_i
+    if value < min_value
       min_key = key
     end
     # and update the min variables set above.
