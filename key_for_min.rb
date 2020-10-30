@@ -13,7 +13,7 @@ while count < 1
     end
     count += 1
   end
-  
+
     hash.each do |key, value|
       if value < min_value
         min_key = key
