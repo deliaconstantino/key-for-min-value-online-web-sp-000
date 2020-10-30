@@ -41,7 +41,7 @@ end
 #   # for example min_key = nil
 #   min_key = ""
 #   min_value = hash[min_key]
-# 
+#
 #   # then we want to iterate on the hash... preferably using .each
 #   hash.each do |key, value|
 #     # in here we want to do a type of comparison
@@ -53,16 +53,16 @@ end
 #  min_key
 #   # return min key down here
 # end
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 # # def key_for_min_value(hash)
 # # nums = []
 # #   hash.collect do |name, num|
