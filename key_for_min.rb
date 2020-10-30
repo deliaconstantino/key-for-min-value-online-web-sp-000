@@ -6,8 +6,8 @@ def key_for_min_value(hash)
   # and the lowest value
   # so set two varaiables to keep track of both
   # for example min_key = nil
-  min_key = nil
-  min_value = nil
+  min_key = " "
+  min_value = " "
 
   # then we want to iterate on the hash... preferably using .each
   hash.each do |key, value|
