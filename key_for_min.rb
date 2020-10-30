@@ -8,18 +8,19 @@ def key_for_min_value(hash)
 count = 0
 while count < hash.length
   if min_value == nil
-  hash.each do |key, value|
-    min_value = value
+    hash.each do |key, value|
+      min_value = value
     end
   end
   count += 1
+end
+
+hash.each do |key, value|
+  if value < min_value
+    min_key = key
   end
-    hash.each do |key, value|
-      if value < min_value
-        min_key = key
-      end
-    end
- min_key
+end
+min_key
 end
 
 
