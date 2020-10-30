@@ -7,7 +7,7 @@
 def key_for_min_value(hash)
   min_key = nil
   min_value = nil
-  
+
   #iterate through hash to find lowest value
     #in iteration, if there is no value, return nil
     #OR return key of the lowest value
@@ -17,7 +17,7 @@ def key_for_min_value(hash)
       return nil
     end
   end
-  
+
   min_key
 end
 
