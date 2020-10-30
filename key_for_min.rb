@@ -7,8 +7,6 @@ nums = []
     nums << num
   end
 
-# min_num = nums.min
-
 name_hash.key(nums.min)
 
 end
