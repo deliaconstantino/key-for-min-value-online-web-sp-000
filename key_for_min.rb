@@ -4,6 +4,9 @@
 def key_for_min_value(hash)
 nums = []
   hash.collect do |name, num|
-    if num < hash.first
+    if num < hash[name].first
+      nums << num
+    end
+  end
 
 end
