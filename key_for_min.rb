@@ -3,9 +3,9 @@
 
 def key_for_min_value(hash)
   min_key = ""
-  min_value = " "
+  min_value = 0
   hash.each do |key, value|
-    if value <= min_value.to_i
+    if value <= min_value
       min_key = key
     end
   end
