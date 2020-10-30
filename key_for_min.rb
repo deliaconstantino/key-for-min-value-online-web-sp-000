@@ -9,6 +9,6 @@ nums = []
 
 min_num = nums.min
 
-name_hash.kay(min_num)
+name_hash.key(min_num)
 
 end
