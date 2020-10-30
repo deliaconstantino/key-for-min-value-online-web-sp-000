@@ -10,7 +10,7 @@ while count < hash.length
   if min_value == nil
   hash.each do |key, value|
     min_value = value
-    end  
+    end
   end
     hash.each do |key, value|
       if value < min_value
