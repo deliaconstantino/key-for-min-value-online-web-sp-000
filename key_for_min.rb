@@ -17,8 +17,8 @@ while count < hash.length
         min_key = key
       end
     end
-  else
     count += 1
+    end
   end
  min_key
 end
