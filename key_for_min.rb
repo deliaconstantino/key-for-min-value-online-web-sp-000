@@ -6,5 +6,8 @@ nums = []
   hash.collect do |name, num|
     nums << num
   end
-hash.key(nums.min)
+
+  nums.collect do |a, b|
+    
+# hash.key(nums.min)
 end
