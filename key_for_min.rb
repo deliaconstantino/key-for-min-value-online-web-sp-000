@@ -4,6 +4,6 @@
 def key_for_min_value(hash)
 nums = []
   hash.collect do |name, num|
-    if num < 5
+    if num
 
 end
