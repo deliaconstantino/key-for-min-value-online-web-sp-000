@@ -14,6 +14,7 @@ def key_for_min_value(hash)
     # in here we want to do a type of comparison
     if value < min_value
       min_key = key
+    end
     # and update the min variables set above.
   end
  min_key
