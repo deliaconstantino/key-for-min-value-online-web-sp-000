@@ -6,10 +6,9 @@ nums = []
   name_hash.collect do |name, num|
     nums << num
   end
-    min_num = nums.min
 
+min_num = nums.min
     
-
-
+name_hash.kay(min_num)
 
 end
