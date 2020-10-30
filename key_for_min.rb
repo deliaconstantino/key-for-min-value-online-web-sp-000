@@ -8,5 +8,9 @@ nums = []
   end
   # hash.key(nums.min)
 
-  nums.
+new_num_array = []
+  nums.each do |num|
+
+    if num < nums[0]
+
 end
