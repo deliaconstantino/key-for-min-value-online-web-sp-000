@@ -8,7 +8,7 @@ nums = []
   end
 
 min_num = nums.min
-    
+
 name_hash.kay(min_num)
 
 end
